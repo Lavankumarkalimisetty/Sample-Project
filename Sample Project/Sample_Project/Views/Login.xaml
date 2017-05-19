@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sample_Project.Views.Login">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackLayout Orientation="Vertical" Grid.Row="1">
+            <Entry x:Name="TbName" Placeholder="UserName"></Entry>
+            <Entry x:Name="TbPassword" Placeholder="Password"/>            
+        </StackLayout>
+        <Button x:Name="BtnSubmit" Text="Submit" TextColor="WhiteSmoke" BackgroundColor="LawnGreen" Grid.Row="2"></Button>
+    </Grid>
+</ContentPage>

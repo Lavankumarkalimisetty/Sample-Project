@@ -1,0 +1,2 @@
+E:\VisualStudio Stuff\Sample Project\Sample Project\Sample_Project.UWP\Sample_Project.UWP.csproj;x86
+E:\VisualStudio Stuff\Sample Project\Sample Project\Sample_Project\Sample_Project.csproj;neutral
